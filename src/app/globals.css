@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #0e9de8;
+  --brand-dark: #027dc6;
+  --brand-light: #eff8ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .brand-gradient {
+    background: linear-gradient(135deg, #0e9de8 0%, #0364a1 100%);
+  }
+  .text-brand { color: #0e9de8; }
+  .bg-brand  { background-color: #0e9de8; }
+  .border-brand { border-color: #0e9de8; }
+}
