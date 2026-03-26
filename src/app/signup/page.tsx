@@ -1,3 +1,4 @@
+import { Caravan } from 'lucide-react'
 import Link from 'next/link'
 
 export default function SignUpPage() {
@@ -7,9 +8,7 @@ export default function SignUpPage() {
       <div className="hidden lg:flex lg:w-1/2 flex-col justify-between p-12 bg-white border-r border-gray-100">
         <Link href="/home" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-[#0e9de8] flex items-center justify-center">
-            <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="white" strokeWidth={2.5}>
-              <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+            <Caravan color='white'/>
           </div>
           <span className="font-bold text-gray-900">Delivra</span>
         </Link>
