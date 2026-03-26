@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { LayoutDashboard, Package, Plus, Map, BarChart2, Settings } from 'lucide-react'
+import { LayoutDashboard, Package, Plus, Map, BarChart2, Settings, Caravan } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const nav = [
@@ -19,10 +19,8 @@ export default function DashboardSidebar() {
     <aside className="w-[200px] flex-shrink-0 bg-white border-r border-gray-100 flex flex-col h-screen sticky top-0">
       <div className="h-16 flex items-center px-4 border-b border-gray-100">
         <Link href="/home" className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-md bg-[#0e9de8] flex items-center justify-center">
-            <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="white" strokeWidth={2.5}>
-              <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+          <div className="w-9 h-9 rounded-md bg-[#0e9de8] flex items-center justify-center">
+            <Caravan color='white'/>
           </div>
           <span className="font-bold text-base text-gray-900">Delivra</span>
         </Link>

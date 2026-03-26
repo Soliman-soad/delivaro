@@ -2,8 +2,8 @@ import { Search, Bell, HelpCircle } from 'lucide-react'
 
 export default function DashboardTopbar() {
   return (
-    <div className="h-14 bg-white border-b border-gray-100 flex items-center gap-4 px-6 sticky top-0 z-20">
-      <div className="flex-1 relative max-w-md">
+    <div className="h-16 bg-white border-b border-gray-100 flex items-center gap-4 px-6 sticky top-0 z-20">
+      <div className="flex-1 relative max-w-md py-8">
         <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"/>
         <input placeholder="Search orders, shipments, drivers..." className="w-full pl-9 pr-4 py-2 text-sm bg-gray-50 border border-gray-100 rounded-lg outline-none focus:border-[#0e9de8] focus:bg-white transition-colors"/>
       </div>
