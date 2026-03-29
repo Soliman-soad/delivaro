@@ -74,7 +74,7 @@ export default function SignInPage() {
             </label>
           </div>
           <Link
-            href="/dashboard"
+            href="/dashboard-v2"
             className="block w-full bg-[#0e9de8] text-white text-sm font-semibold text-center py-3 rounded-xl hover:bg-[#027dc6] transition-colors"
           >
             Sign In →

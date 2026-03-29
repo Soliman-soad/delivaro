@@ -6,6 +6,20 @@
   --brand: #0e9de8;
   --brand-dark: #027dc6;
   --brand-light: #eff8ff;
+  --green: #22c55e;
+  --green-dark: #16a34a;
+  --green-light: #f0fdf4;
+  --green-bg: #dcfce7;
+  --text: #1f2937;
+  --text-muted: #6b7280;
+  --text-light: #9ca3af;
+  --border: #e5e7eb;
+  --bg: #f9fafb;
+  --white: #fff;
+  --blue: #3b82f6;
+  --red: #ef4444;
+  --orange: #f59e0b;
+  --purple: #8b5cf6;
 }
 
 * { box-sizing: border-box; }
@@ -22,4 +36,25 @@ body {
   .text-brand { color: #0e9de8; }
   .bg-brand  { background-color: #0e9de8; }
   .border-brand { border-color: #0e9de8; }
+}
+
+/* Leaflet z-index fix */
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  z-index: 1 !important;
+}
+.leaflet-control {
+  z-index: 2 !important;
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 2 !important;
 }

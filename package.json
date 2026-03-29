@@ -14,7 +14,8 @@
     "react-dom": "^18",
     "lucide-react": "^0.383.0",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.3.0"
+    "tailwind-merge": "^2.3.0",
+    "leaflet": "^1.9.4"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -25,6 +26,7 @@
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "@types/leaflet": "^1.9.12"
   }
 }
